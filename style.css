@@ -1,7 +1,9 @@
 #navbar{
   padding: 25px;
-
+  z-index: 1;
 }
+
+
 
 
 .navbar-brand{
@@ -13,20 +15,18 @@
 
 
 .navbar {
-  padding-top: 150px;
-  padding-bottom: 112px;
+
   width: 100%; /* Full width */
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: rgb(33, 85, 168);
   color: #FFF;
   transition: top 0.5s;
-   border-bottom: 5px solid rgb(0,149,209);
+  border-bottom: 5px solid rgb(0,149,209);
 }
 
 .navbar.compressed {
-  padding-top: 2px;
-  padding-bottom: 2px;
+
   background: rgb(33, 85, 168, 0.8);
   color: #99cc7c;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
