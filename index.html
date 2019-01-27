@@ -15,48 +15,52 @@
   </head>
   <body>
 
+    <div style="height:164px">
+      <nav id="navbar" class="navbar navbar-expand-sm navbar-light navbar-custom">
+          <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+            <a class="navbar-brand" href="#">
+              <img id="logoimg" src="img/logo.png" width="150" height="100" alt="">
+            </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse text-center" id="navbarsExample11">
 
-    <nav id="navbar" class="navbar navbar-expand-sm navbar-light navbar-custom">
-        <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
-          <a class="navbar-brand" href="#">
-            <img id="logoimg" src="img/logo.png" width="150" height="100" alt="">
-          </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse text-center" id="navbarsExample11">
-
-                <ul class="navbar-nav flex-wrap">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link Name</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link Name</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link Name</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link Name</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link Name</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link Name</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link Name</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link Name</a>
-                    </li>
-                </ul>
+                  <ul class="navbar-nav flex-wrap">
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Link Name</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Link Name</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Link Name</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Link Name</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Link Name</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Link Name</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Link Name</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Link Name</a>
+                      </li>
+                  </ul>
 
 
-            </div>
-        </div>
-    </nav>
+              </div>
+          </div>
+      </nav>
+
+    </div>
+
+
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -155,7 +159,7 @@ function scrollFunction() {
   }
 
   if (document.body.scrollTop > 165 || document.documentElement.scrollTop > 165) {
-    document.getElementById("carouselExampleIndicators").style.top = "160px";
+    // document.getElementById("carouselExampleIndicators").style.top = "160px";
     // document.getElementById("navbar").style.position = "fixed";
     $(".navbar").addClass("compressed");
     document.getElementById("navbar").style.top = "0px";
