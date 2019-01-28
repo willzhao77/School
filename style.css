@@ -50,3 +50,50 @@ body {
   color: #FFF;
   border-top: 2px solid rgb(0,149,209);
 }
+
+
+
+
+
+
+.newstitle{
+  float: left;
+}
+.newsmore{
+  float: right;
+}
+
+.test{
+  background-color: green;
+  border: 1px solid;
+}
+
+.newsitem{
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 33.3%;
+}
+
+
+.news{
+  height:500px;
+  background-color: green;
+}
+
+
+
+.info{
+
+  height:500px;
+  background-color: green;
+}
+
+
+
+
+
+/* change container width */
+.container{
+  max-width: 1200px;
+}
