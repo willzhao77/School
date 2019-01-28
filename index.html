@@ -20,11 +20,11 @@
           <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
             <div class="brandcontainer">
               <a class="navbar-brand" href="#">
-                <img id="logoimg" class="homelogo" src="img/logo.png" width="350" height="120" alt="">
+                <img id="logoimg" class="homelogo" src="img/logo.png"  alt="">
               </a>
             </div>
 
-            <div style="text-align: center" >
+            <div class="textcenter">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarlinks" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
               </button>
@@ -75,7 +75,7 @@
         <li data-target="#carouselIndicators" data-slide-to="1"></li>
         <li data-target="#carouselIndicators" data-slide-to="2"></li>
       </ol>
-      <div class="carousel-inner" style="height:600px">
+      <div class="carousel-inner height600" >
         <div class="carousel-item active">
           <img src="img/slide1.jpg" class="d-block w-100" alt="...">
         </div>
@@ -106,17 +106,17 @@
           <h4 class="itemmore">More...</h4>
           <div class="newsframe">
             <div class="newsitem">
-              <img src="img/test.png" alt="" style="height:200px">
+              <img src="img/test.png" alt="" class="height200">
               <P>Short Description Description Description Description</P>
               <span>21 Jan 2019</span>
             </div>
             <div class="newsitem">
-              <img src="img/test.png" alt="" style="height:200px">
+              <img src="img/test.png" alt=""  class="height200">
               <P>Short Description Description Description Description</P>
               <span>21 Jan 2019</span>
             </div>
             <div class="newsitem">
-              <img src="img/test.png" alt="" style="height:200px">
+              <img src="img/test.png" alt="" class="height200">
               <P>Short Description Description Description Description</P>
               <span>21 Jan 2019</span>
             </div>
@@ -136,15 +136,15 @@
             </div>
             <div class="noticeframein">
               <div class="noticeitem">
-                <img src="img/test.png" alt="" height="100px">
+                <img src="img/test.png" alt="" class="height100">
                 <a href="">Event Description</a>
               </div>
               <div class="noticeitem">
-                <img src="img/test.png" alt="" height="100px">
+                <img src="img/test.png" alt="" class="height100">
                 <a href="">Event Description</a>
               </div>
               <div class="noticeitem">
-                <img src="img/test.png" alt="" height="100px">
+                <img src="img/test.png" alt="" class="height100">
                 <a href="">Event Description</a>
               </div>
             </div>
@@ -153,14 +153,7 @@
       </div>
     </div>
 
-
-
-
-
     <p>asd1</p>
-
-
-
     <p>asd2</p>
     <p>asd3</p>
     <p>asd</p>
@@ -232,16 +225,20 @@ function scrollFunction() {
     $(".navbar").addClass("compressed");
     document.getElementById("navbar").style.top = "0px";
     document.getElementById("navbar").style.padding="0"
-    document.getElementById("logoimg").width = "150";
-    document.getElementById("logoimg").height = "50";
-
+    // document.getElementById("logoimg").width = "150px";
+    // document.getElementById("logoimg").height = "50px";
+    $('#logoimg').width("150px");
+    $('#logoimg').height("50px");
+$('#logoimg').width(150);
   } else {
     $(".navbar").removeClass("compressed");
     document.getElementById("navbar").style.position = "";
     document.getElementById("navbar").style.padding=""
     document.getElementById("navbar").style.top = "";
-    document.getElementById("logoimg").width = "350";
-    document.getElementById("logoimg").height = "120";
+    // document.getElementById("logoimg").width = "350";
+    // document.getElementById("logoimg").height = "120";
+    $('#logoimg').width("350px");
+    $('#logoimg').height("120px");
     document.getElementById("carouselExampleIndicators").style.top = "0px";
 
   }
