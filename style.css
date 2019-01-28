@@ -35,3 +35,18 @@
 .navbar-light .navbar-toggler{
   background-color: lightblue;
 }
+
+
+
+/* remove footer white space bottom  */
+body {
+  margin-bottom: -40px;
+}
+
+.footer{
+  padding-top: 5px;
+  padding-bottom:1px;
+  background-color: rgb(33, 85, 168);
+  color: #FFF;
+  border-top: 2px solid rgb(0,149,209);
+}
