@@ -56,41 +56,61 @@ body {
 
 
 
-.newstitle{
+.itemtitle{
+  margin-top: 10px;
   float: left;
+
 }
-.newsmore{
+.itemmore{
+  margin: 10px 60px 0 0;
   float: right;
+  color: blue;
 }
 
 .test{
-  background-color: green;
+
   border: 1px solid;
 }
 
+.newsframe{
+  margin-top: 80px;
+}
 .newsitem{
   float: left;
-  margin: 0;
+  margin: 80px,0,0,0;
   padding: 0;
   width: 33.3%;
 }
 
 
 .news{
-  height:500px;
-  background-color: green;
+  margin-top: 25px;
+
 }
 
 
 
 .info{
-
-  height:500px;
-  background-color: green;
+  /* background-color: green; */
 }
 
+.noticeframe {
+  margin-top: 25px;
+  background-color: lightblue;
 
+}
 
+.noticeframein{
+  margin-top: 50px;
+}
+
+.noticeimg{
+  
+}
+
+.notice2{
+  margin-top: 100px
+}
 
 
 /* change container width */
