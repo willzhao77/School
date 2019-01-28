@@ -18,13 +18,20 @@
     <div style="height:164px">
       <nav id="navbar" class="navbar navbar-expand-sm navbar-light navbar-custom">
           <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
-            <a class="navbar-brand" href="#">
-              <img id="logoimg" src="img/logo.png" width="150" height="100" alt="">
-            </a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+            <div style=" width:350px; text-align: center;">
+              <a class="navbar-brand" href="#">
+                <img id="logoimg" src="img/logo.png" width="350" height="120" alt="">
+              </a>
+            </div>
+
+            <div style="text-align: center" >
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarlinks" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse text-center" id="navbarsExample11">
+
+            </div>
+
+              <div class="collapse navbar-collapse text-center" id="navbarlinks">
 
                   <ul class="navbar-nav flex-wrap">
                       <li class="nav-item">
@@ -62,11 +69,11 @@
 
 
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselIndicators" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -172,8 +179,8 @@ function scrollFunction() {
     document.getElementById("navbar").style.position = "";
     document.getElementById("navbar").style.padding=""
     document.getElementById("navbar").style.top = "";
-    document.getElementById("logoimg").width = "150";
-    document.getElementById("logoimg").height = "100";
+    document.getElementById("logoimg").width = "350";
+    document.getElementById("logoimg").height = "120";
     document.getElementById("carouselExampleIndicators").style.top = "0px";
 
   }

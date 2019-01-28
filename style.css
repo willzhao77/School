@@ -1,48 +1,25 @@
 #navbar{
-  padding: 25px;
+  padding: 15px;
   z-index: 1;
 }
 
 
-
-
-.navbar-brand{
-  position: relative;
+#navbarlinks{
+  padding-left: 20px;
 }
-
-
-
-
-
 .navbar {
-
   width: 100%; /* Full width */
-  padding-top: 15px;
-  padding-bottom: 15px;
   background-color: rgb(33, 85, 168);
-  color: #FFF;
-  transition: top 0.5s;
+  transition: top 0.3s;
   border-bottom: 5px solid rgb(0,149,209);
 }
 
+
 .navbar.compressed {
-
   background: rgb(33, 85, 168, 0.8);
-  color: #99cc7c;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-
 }
 
 
-.navbar-custom {
-    /* background-color: #ff5500 !important; */
-}
-
-/* change the brand and text color */
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
-    color: rgba(255,255,255,.8);
-}
 
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
@@ -55,19 +32,6 @@
     color: #ffffff;
 }
 
-/* for dropdown only - change the color of droodown */
-.navbar-custom .dropdown-menu {
-    background-color: #ff5500;
-}
-.navbar-custom .dropdown-item {
-    color: #ffffff;
-}
-.navbar-custom .dropdown-item:hover,
-.navbar-custom .dropdown-item:focus {
-    color: #333333;
-    background-color: rgba(255,255,255,.5);
-}
-
-
-
+.navbar-light .navbar-toggler{
+  background-color: lightblue;
 }
