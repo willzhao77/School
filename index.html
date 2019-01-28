@@ -15,12 +15,12 @@
   </head>
   <body>
 
-    <div style="height:164px">
+    <div class="navcontainer">
       <nav id="navbar" class="navbar navbar-expand-sm navbar-light navbar-custom">
           <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
-            <div style=" width:350px; text-align: center;">
+            <div class="brandcontainer">
               <a class="navbar-brand" href="#">
-                <img id="logoimg" src="img/logo.png" width="350" height="120" alt="">
+                <img id="logoimg" class="homelogo" src="img/logo.png" width="350" height="120" alt="">
               </a>
             </div>
 
@@ -101,7 +101,7 @@
     <div class="container main" >
       <div class="row">
 
-        <div class="news col-md-8 test">
+        <div class="news col-md-8 ">
           <h4 class="itemtitle">News Center</h4>
           <h4 class="itemmore">More...</h4>
           <div class="newsframe">
@@ -128,20 +128,26 @@
 
         <div class="info col-md-4 ">
 
-          <div class="noticeframe rounded test">
-
-            <h4 class="itemtitle">News Center</h4>
-            <h4 class="itemmore">More...</h4>
-            <div class="noticeframein test">
-
-
-              <div class="nav-link test"><a href=""> <img align="left" class="noticeimg" src="img/test.png" alt="" height="100px"><p>Description for the first notice</p>  </a></div>
-              <div class="nav-link test"><a href=""> <img  align="left"src="img/test.png" alt="" height="100px"><p>Description for the first notice</p>  </a></div>
-
-
+          <div class="noticeframe rounded">
+            <div>
+              <h4 class="itemtitle">Events</h4>
+              <h4 class="itemmore">More...</h4>
+              <div style="clear: both"></div>
             </div>
-
-
+            <div class="noticeframein">
+              <div class="noticeitem">
+                <img src="img/test.png" alt="" height="100px">
+                <a href="">Event Description</a>
+              </div>
+              <div class="noticeitem">
+                <img src="img/test.png" alt="" height="100px">
+                <a href="">Event Description</a>
+              </div>
+              <div class="noticeitem">
+                <img src="img/test.png" alt="" height="100px">
+                <a href="">Event Description</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -151,13 +157,10 @@
 
 
 
-
-
-<div class="nav-link test">
-<img src="img/test.png" alt="">
-  test</div>
-
     <p>asd1</p>
+
+
+
     <p>asd2</p>
     <p>asd3</p>
     <p>asd</p>
@@ -190,7 +193,10 @@
     <p>asd</p>
     <p>asd</p>
 
-
+    <div style="overflow:auto; border: 1px solid; color: red">
+    <div style="display:inline-block;float:left"> Text1 </div>
+    <div style="display:inline-block;float:right"> Text2 </div>
+    </div>
 
     <footer class="footer ">
        <div class="container text-center">

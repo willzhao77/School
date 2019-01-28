@@ -3,10 +3,19 @@
   z-index: 1;
 }
 
-
 #navbarlinks{
   padding-left: 20px;
 }
+
+.navcontainer{
+  height:164px;
+}
+
+.brandcontainer{
+  width:350px;
+  text-align: center;
+}
+
 .navbar {
   width: 100%; /* Full width */
   background-color: rgb(33, 85, 168);
@@ -14,12 +23,9 @@
   border-bottom: 5px solid rgb(0,149,209);
 }
 
-
 .navbar.compressed {
   background: rgb(33, 85, 168, 0.8);
 }
-
-
 
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
@@ -32,11 +38,10 @@
     color: #ffffff;
 }
 
+/* change Navbar menu color */
 .navbar-light .navbar-toggler{
   background-color: lightblue;
 }
-
-
 
 /* remove footer white space bottom  */
 body {
@@ -51,26 +56,21 @@ body {
   border-top: 2px solid rgb(0,149,209);
 }
 
-
-
-
-
-
 .itemtitle{
   margin-top: 10px;
   float: left;
-
 }
+
 .itemmore{
   margin: 10px 60px 0 0;
   float: right;
   color: blue;
 }
-
-.test{
-
+/* used for testing */
+.border1{
   border: 1px solid;
 }
+
 
 .newsframe{
   margin-top: 80px;
@@ -82,13 +82,9 @@ body {
   width: 33.3%;
 }
 
-
 .news{
   margin-top: 25px;
-
 }
-
-
 
 .info{
   /* background-color: green; */
@@ -97,19 +93,17 @@ body {
 .noticeframe {
   margin-top: 25px;
   background-color: lightblue;
-
 }
 
 .noticeframein{
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
-.noticeimg{
-  
-}
 
-.notice2{
-  margin-top: 100px
+
+.noticeitem{
+  margin: 10px;
+  padding: 10px;
 }
 
 
