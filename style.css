@@ -66,6 +66,11 @@ body {
   float: left;
 }
 
+.eventtitle{
+  margin: 10px 0 0 20px;
+  float: left;
+}
+
 .itemmore{
   margin: 10px 60px 0 0;
   float: right;
@@ -112,22 +117,78 @@ body {
 }
 
 
+.bgterm{
+  background-color: #AABBEE;
+}
+
+.termtitle{
+  margin-top: 20px;
+  color: #4477BB;
+}
+
+.termframe{
+  background-color: #EEFFEE;
+}
+
+.addressframe{
+  background-color: #778899;
+}
+
 /* public class */
 /* change container width */
+.marginpadding0{
+  margin: 0;
+  padding: 0;
+}
+
 .container{
   max-width: 1200px;
 }
 
+.margin10{
+  margin: 10px;
+}
+
+.padding10{
+  padding: 10px;
+}
+
+
+
 .textcenter{
   text-align: center;
 }
+
+.textleft{
+
+  text-align: justify;
+}
+
 .height600{
   height:600px;
 }
+.height400{
+  height:400px;
+}
 
+.height300{
+  height:300px;
+}
 .height200{
   height:200px;
 }
 .height100{
   height:100px;
+}
+
+.tab2{
+	background-color: #eee;
+	padding: 60px 20px;
+	text-align: center;
+}
+
+.tab3{
+	background-color: #FFF;
+	padding: 60px 20px;
+	text-align: center;
 }
