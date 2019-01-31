@@ -50,6 +50,15 @@
   background-color: lightblue;
 }
 
+/* remove space on top of dropdown menu */
+.dropdown-menu{
+  margin-top: -0px;
+}
+
+.newstitle{
+  margin-top: 10px;
+}
+
 /* remove footer white space bottom  */
 body {
   margin-bottom: -40px;
